@@ -12,13 +12,12 @@ def play():
     else:
         print("Scissor")
 
-
-
     if user == computer:
-        return "Tie"
+        return " It's Tie"
 
     if is_win(user,computer):
         return "You Won!"
+
     return "you Lost!"
 
 
